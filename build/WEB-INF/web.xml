@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+            
+
+    <servlet>
+        <servlet-name>PrevisionServlet</servlet-name>
+        <servlet-class>src.java.servlet.PrevisionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PrevisionServlet</servlet-name>
+        <url-pattern>/PrevisionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormEmpServlet</servlet-name>
+        <servlet-class>src.java.servlet.FormEmpServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FormEmpServlet</servlet-name>
+        <url-pattern>/FormEmpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EtatServlet</servlet-name>
+        <servlet-class>src.java.servlet.EtatServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EtatServlet</servlet-name>
+        <url-pattern>/EtatServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepenseServlet</servlet-name>
+        <servlet-class>src.java.servlet.DepenseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DepenseServlet</servlet-name>
+        <url-pattern>/DepenseServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
